@@ -80,6 +80,10 @@
           "title": "Environment",
           "type": "object"
         },
+        "groups": {
+          "title": "Groups",
+          "type": "array"
+        },
         "hostname": {
           "title": "Hostname",
           "type": "string"
@@ -285,6 +289,7 @@
             "create",
             "dependency",
             "destroy",
+            "idempotence",
             "lint",
             "prepare",
             "side_effect",
